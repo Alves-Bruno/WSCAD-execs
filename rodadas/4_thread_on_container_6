@@ -1,0 +1,35 @@
+Batch System: singleMachine
+Default Cores: 1  Default Memory: 2097152K
+Max Cores: 9.22337e+18
+Total Clock: 279.88  Total Runtime: 146.28
+Worker
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+      205 |     0.00    0.74    0.55    4.47  112.05 |     0.00    0.74    0.55    4.46  113.34 |    -0.02   -0.00   -0.01    0.01   -1.29 |   58632K  90108K 895112K1774328K183498040K
+Job
+ Worker Jobs  |     min    med    ave    max
+              |     104    104    104    104
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+      104 |     0.01    1.05    1.06    4.44  110.18 |     0.01    1.06    1.07    4.43  111.47 |    -0.02   -0.01   -0.01    0.01   -1.28 |   81604K1770508K1707431K1774328K177572912K
+ ResolveIndirect
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+        1 |     0.01    0.01    0.01    0.01    0.01 |     0.01    0.01    0.01    0.01    0.01 |    -0.00   -0.00   -0.00   -0.00   -0.00 |   81604K  81604K  81604K  81604K  81604K
+ file:///run_workspace/sam-cat-err.cwl
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+        1 |     0.71    0.71    0.71    0.71    0.71 |     0.71    0.71    0.71    0.71    0.71 |     0.00    0.00    0.00    0.00    0.00 |   90108K  90108K  90108K  90108K  90108K
+ CWLWorkflow
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+        1 |     0.87    0.87    0.87    0.87    0.87 |     0.87    0.87    0.87    0.87    0.87 |    -0.00   -0.00   -0.00   -0.00   -0.00 |  167104K 167104K 167104K 167104K 167104K
+ file:///run_workspace/bwa-mem.cwl
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+      100 |     0.97    1.05    1.04    1.12  104.14 |     0.98    1.06    1.05    1.13  105.44 |    -0.02   -0.01   -0.01   -0.01   -1.30 | 1770436K1770524K1771428K1774328K177142800K
+ file:///run_workspace/sam-cat.cwl
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+        1 |     4.44    4.44    4.44    4.44    4.44 |     4.43    4.43    4.43    4.43    4.43 |     0.01    0.01    0.01    0.01    0.01 |   91296K  91296K  91296K  91296K  91296K
+

@@ -1,0 +1,35 @@
+Batch System: slurm
+Default Cores: 1  Default Memory: 2097152K
+Max Cores: 9.22337e+18
+Total Clock: 298.62  Total Runtime: 340.19
+Worker
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+      206 |     0.00    1.85    1.15    6.46  235.99 |     0.00    0.35    0.24    5.69   49.80 |    -0.00    0.03    0.90    2.88  186.18 |   61160K  99912K  83165K 173176K17132052K
+Job
+ Worker Jobs  |     min    med    ave    max
+              |     105    105    105    105
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+      105 |     0.01    2.11    2.22    6.42  233.00 |     0.01    0.36    0.45    5.65   46.83 |     0.00    1.75    1.77    2.88  186.16 |   99884K 102028K 103955K 173176K10915312K
+ ResolveIndirect
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+        1 |     0.01    0.01    0.01    0.01    0.01 |     0.01    0.01    0.01    0.01    0.01 |     0.00    0.00    0.00    0.00    0.00 |  119592K 119592K 119592K 119592K 119592K
+ CWLWorkflow
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+        2 |     1.65    1.65    1.65    1.65    3.29 |     1.61    1.64    1.63    1.64    3.26 |     0.00    0.03    0.02    0.03    0.04 |  173160K 173176K 173168K 173176K 346336K
+ file:///root/toil-tests/run_workspace/bwa-mem.cwl
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+      100 |     1.79    2.12    2.21    3.24  220.56 |     0.32    0.36    0.36    0.44   36.10 |     1.40    1.76    1.84    2.88  184.46 |   99884K 102028K 102393K 106160K10239332K
+ file:///root/toil-tests/run_workspace/sam-cat-err.cwl
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+        1 |     2.71    2.71    2.71    2.71    2.71 |     1.82    1.82    1.82    1.82    1.82 |     0.89    0.89    0.89    0.89    0.89 |  104248K 104248K 104248K 104248K 104248K
+ file:///root/toil-tests/run_workspace/sam-cat.cwl
+    Count |                                    Time* |                                    Clock |                                     Wait |                                   Memory 
+        n |      min    med*     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total |      min     med     ave     max   total 
+        1 |     6.42    6.42    6.42    6.42    6.42 |     5.65    5.65    5.65    5.65    5.65 |     0.77    0.77    0.77    0.77    0.77 |  105804K 105804K 105804K 105804K 105804K
+
